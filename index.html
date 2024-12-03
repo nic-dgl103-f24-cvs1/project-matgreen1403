@@ -14,23 +14,28 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="logo" />
+      <img class="logo" src="images/logo.png" alt="logo" />
       <nav>
-        <ul>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger-menu">
+           <img class="icon" src="images/hamburger-icon.png" alt="">
+        </label>
+        <ul class="header-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
-    <section>
+    <section class="hero-section">
       <h1>Welcome to Kitty Coleman Woodland Gardens</h1>
       <img src="images/Fountain.jpg" alt="Fountain" /><a href="about.html"
         >Learn About Us</a
       >
     </section>
-    <section>
+    <section class="introduction">
       <h2>A bit about us!</h2>
+      <div class="introduction-content">
       <p>
         Kitty Coleman Woodland Gardens are an act of love, developed by one man
         in an effort to fulfill a dream to share with all. Woodland Gardens,
@@ -44,8 +49,9 @@
         look forward to seeing you at the gardens.
       </p>
       <img src="images/pink-flowers.jpg" alt="Pink Flowers" />
+    </div>
     </section>
-    <section>
+    <section class="gallery">
       <h2>Gallery</h2>
       <article>
         <h3>Flowers</h3>
@@ -74,7 +80,7 @@
       <a href="contact.html">Find where to visit</a>
     </section>
 
-    <section>
+    <section class="event">
       <h2>Events:</h2>
       <h3>Kitty Coleman Woodland Garden Chrimstas Events 2024</h3>
       <h4>Entrace Fee:CASH ONLY</h4>
@@ -109,10 +115,10 @@
         <li>Crepes</li>
       </ul>
     </section>
-    <footer>
+    <footer class="page-footer">
       <h2>Our Goals</h2>
       <!--AI generated except the &apos-->
-      <p>
+      <p class="footer-content">
         At Kitty Coleman Woodland Gardens, our mission is to cultivate a serene
         and inspiring natural sanctuary that showcases the beauty of
         rhododendrons and native flora. We are dedicated to providing a tranquil
@@ -121,11 +127,11 @@
         creativity and community engagement.
       </p>
       <nav>
-        <ul>
+        
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+    
       </nav>
       <p>&copy; 2024 Woodland Gardens. All Rights Reserved.</p>
     </footer>
