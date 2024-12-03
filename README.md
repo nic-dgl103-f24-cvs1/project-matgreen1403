@@ -15,7 +15,7 @@ If the customer has a question that cannot be answered by the website; you would
 Essentially it is a thorough advertisment for the venue.
 
 The webiste design and layout of the content feels unorganised. 
-There are minor accessibility issues like low contrast. Overall it did well in performanc, accessiblity and best practices. 
+There are minor accessibility issues like low contrast. Overall it did well in performance, accessiblity and best practices. 
 I believe the best improvements would be in the layout and delivery of the content, especially since that aids in the main goal of the website.  
 
 Look & feel:
