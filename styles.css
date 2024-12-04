@@ -43,7 +43,8 @@ header {
   align-items: center;
   padding: 10px 20px;
   background-color: #215600;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .logo {
   max-height: 100px;
@@ -55,7 +56,7 @@ header {
   display: none;
 }
 
-.hamburger-icon {
+.icon {
   font-size: 1.5rem;
   cursor: pointer;
   color: white;
@@ -93,7 +94,7 @@ header {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .hero-section a {
   background-color: #215600;
@@ -105,72 +106,106 @@ header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.introduction h2{
-    margin: 5px;
+.introduction h2 {
+  margin: 5px;
 }
-.introduction p{
-    margin: 10px;
+.introduction p {
+  margin: 10px;
 }
-.introduction img{
-    margin: 0 auto;
-    border-radius: 15px;
+.introduction img {
+  margin: 0 auto;
+  border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.gallery h3{
-    color: white;
+.gallery h3 {
+  color: white;
 }
-.gallery article{
-    text-align: center;
-    background-color: #215600;
-    padding: 5px 40px 40px 40px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+.gallery article {
+  text-align: center;
+  background-color: #215600;
+  padding: 5px 40px 40px 40px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.gallery article img{
-    width: 100%;
+.gallery article img {
+  width: 100%;
 }
-.gallery a{
-    text-align: center;
-    background-color: #215600;
-    color: white;
-    padding: 10px 30px;
-    margin: 20px;
-    border-radius: 15px;
-    display: block;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+.gallery a {
+  text-align: center;
+  background-color: #215600;
+  color: white;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 15px;
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.event{
-    background-color: #215600;
-    color: white;
-    margin: 10px;
-    border-radius: 15px;
+.event {
+  background-color: #215600;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.event li,h2,h3,h4{
-    margin: 5px 10px;
-    padding: 10px;
+.event li,
+h2,
+h3,
+h4 {
+  margin: 5px 10px;
+  padding: 10px;
 }
-.page-footer{
-    background-color: #215600;
-    color: white;
-    margin: 10px;
-    border-radius: 15px;
-    text-align: center;
+.page-footer {
+  background-color: #215600;
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.footer-content{
-    text-align: initial;
+.footer-content {
+  text-align: initial;
 }
-.page-footer a{
-    color: white;
+.page-footer a {
+  color: white;
 }
-.page-footer li{
-    list-style: none;
+.page-footer li {
+  list-style: none;
 }
-.page-footer p{
-    padding: 10px;
+.page-footer p {
+  padding: 10px;
+}
+@media (min-width: 1200px) {
+    header{
+        margin-bottom: 20px;
+    }
+  .header-nav {
+    max-height: none;
+    overflow: visible;
+    flex-direction: row;
+    gap: 20px;
+    background-color: transparent;
+  }
+  .icon {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    align-items: center;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.event-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 }
