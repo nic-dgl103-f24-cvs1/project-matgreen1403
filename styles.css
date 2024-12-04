@@ -46,8 +46,8 @@ header {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-hr{
-    border: #070d00 1px solid;
+hr {
+  border: #070d00 1px solid;
 }
 .logo {
   max-height: 100px;
@@ -109,11 +109,11 @@ hr{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.introduction{
-    text-align: center;
-    color: white;
+.introduction {
+  text-align: center;
+  color: white;
   background-color: #215600;
-  padding:20px;
+  padding: 20px;
   margin: 10px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
@@ -190,9 +190,9 @@ h4 {
 .page-footer p {
   padding: 10px;
 }
-.contact-hero{
-    text-align: center;
-    color: white;
+.contact-hero {
+  text-align: center;
+  color: white;
   background-color: #215600;
   padding: 5px 40px 40px 40px;
   margin: 10px;
@@ -201,73 +201,73 @@ h4 {
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.direct-contact{
-    text-align: center;
-    color: white;
+.direct-contact {
+  text-align: center;
+  color: white;
   background-color: #215600;
-  padding:20px;
+  padding: 20px;
   margin: 10px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.direct-contact li{
-    text-align: initial;
+.direct-contact li {
+  text-align: initial;
 }
-.table-form{
-    text-align: center;
-    color: white;
+.table-form {
+  text-align: center;
+  color: white;
   background-color: #215600;
-  padding:20px;
+  padding: 20px;
   margin: 10px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.table-form table{
-    margin: 0 auto;
+.table-form table {
+  margin: 0 auto;
 }
-.contact-form{
-    text-align: center;
-    color: white;
+.contact-form {
+  text-align: center;
+  color: white;
   background-color: #215600;
-  padding:20px;
+  padding: 20px;
   margin: 10px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.video-section{
+.video-section {
   background-color: #215600;
   color: white;
-  padding:20px;
+  padding: 20px;
   margin: 10px;
   border-radius: 15px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.history-section{
-    background-color: #215600;
-    color: white;
-    padding:20px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+.history-section {
+  background-color: #215600;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-iframe{
-    width: 100%;
+iframe {
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
-    header{
-        margin-bottom: 20px;
-    }
+  header {
+    margin-bottom: 20px;
+  }
   .header-nav {
     max-height: none;
     overflow: visible;
@@ -282,16 +282,16 @@ iframe{
     display: flex;
     align-items: center;
   }
-  .cards{
+  .cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.event-content{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .event-content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.direct-contact-content{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .direct-contact-content {
     display: flex;
     align-items: center;
-}
+  }
 }
