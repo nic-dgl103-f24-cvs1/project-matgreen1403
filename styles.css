@@ -196,7 +196,49 @@ h4 {
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.
+.direct-contact{
+    text-align: center;
+    color: white;
+  background-color: #215600;
+  padding:20px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.direct-contact li{
+    text-align: initial;
+}
+.table-form{
+    text-align: center;
+    color: white;
+  background-color: #215600;
+  padding:20px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.table-form table{
+    margin: 0 auto;
+}
+.contact-form{
+    text-align: center;
+    color: white;
+  background-color: #215600;
+  padding:20px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+iframe{
+    width: 100%;
+}
+
 @media (min-width: 1200px) {
     header{
         margin-bottom: 20px;
